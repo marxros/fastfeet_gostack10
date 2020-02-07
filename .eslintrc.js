@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: [
     'airbnb-base',
-    'prettier'
+    'prettier',
   ],
   plugins: ['prettier'],
   globals: {
@@ -18,9 +18,9 @@ module.exports = {
   },
   rules: {
     "prettier/prettier": "error",
-    "class-methods-use-thi":"off", // desabilita a obrigação de usar o this nas classes
+    "class-methods-use-this":"off", // desabilita a obrigação de usar o this nas classes
     "no-param-reassign": "off",  // permite que receba parametro e faça alteração no parametro
     "camelcase": "off",
-    "no-unused-vars": ["erro", { "argsIgnorePattern": "next"}], // Ignora caso a variavel next seja declarada e não usada
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next"}], // Ignora caso a variavel next seja declarada e não usada
   },
 };
